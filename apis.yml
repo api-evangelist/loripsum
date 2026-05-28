@@ -1,0 +1,32 @@
+aid: loripsum
+name: Loripsum
+description: "The \"lorem ipsum\" generator that doesn't suck"
+url: http://loripsum.net/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Test Data"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Test Data
+  - Public APIs
+apis:
+  - name: Loripsum
+    description: "The \"lorem ipsum\" generator that doesn't suck"
+    humanURL: http://loripsum.net/
+    baseURL: http://loripsum.net/
+    tags:
+      - Test Data
+    properties:
+      - type: Documentation
+        url: http://loripsum.net/
+common:
+  - type: Website
+    url: http://loripsum.net/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
